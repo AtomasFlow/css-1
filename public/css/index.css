@@ -1,0 +1,58 @@
+:root{
+  background: #fff;
+}
+
+* {
+  color: black;
+}
+
+h1{
+  color: blue;
+}
+
+p.green{
+  color: green;
+}
+
+#blue{
+  color: blue;
+}
+
+.box div{
+  background: green;
+}
+
+.box p{
+  background: red;
+}
+
+.green{
+  background: green;
+  color: #fff;
+}
+
+ul>li{
+  background: red;
+}
+
+.header-button + span{
+  background: red;
+}
+
+p.susid~p{
+  background: blue;
+  color: #fff;
+}
+
+p.salo, #bread{
+  background: yellow;
+}
+
+.first-task>ul>li:first-child{
+  color: #fff;
+}
+
+.second-task > ul>li:first-child{
+  color: yellow;
+}
+
