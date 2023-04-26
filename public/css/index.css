@@ -52,7 +52,88 @@ p.salo, #bread{
   color: #fff;
 }
 
-.second-task > ul>li:first-child{
+.second-task ul:first-child li:first-child{
   color: yellow;
 }
 
+.third-task ul:last-child li:first-child{
+  color: yellow;
+}
+
+.four-task ul li:last-child{
+  color: yellow;
+}
+
+.five-task ul:last-child li:last-child{
+  color: #fff;
+}
+
+.only-child-task div:only-child{
+  color: red;
+}
+
+.seven-task span:first-of-type{
+  background: red;
+}
+
+.eight-task span:last-of-type{
+  background: red;
+}
+
+.text-wrapper p:only-of-type{
+  background: yellow;
+}
+
+.lesson-three-task-one a[href]{
+  color: #fff;
+}
+
+.lesson-three-task-two li[value]{
+  color: yellow;
+}
+
+.lesson-three-task-three li[value='3']{
+  background: red;
+}
+
+.lesson-three-task-four button[class~='primary']{
+  background: blue;
+}
+
+.lesson-three-task-five button[class|='secondary']{
+  background: red;
+}
+
+.lesson-three-task-six li[class^='b']{
+  background: #fff;
+  color: green;
+}
+
+.lesson-three-task-seven li[class*='on']{
+  color: green;
+  background: #fff;
+}
+
+.lesson-three-task-eight span[class$='s']{
+  background: rgb(39, 199, 39);
+}
+
+.lesson-three-task-nine ::first-letter{
+  color: red;
+}
+
+.lesson-three-task-ten ::first-line{
+  background: yellow;
+}
+
+.lesson-three-task-eleven input::placeholder{
+  background: red;
+}
+
+.lesson-three-task-twelve li::before{
+  content: '➤ ';
+}
+
+.lesson-three-task-thirteen li::after{
+  content: ' ➤';
+}
